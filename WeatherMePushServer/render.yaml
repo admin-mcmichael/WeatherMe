@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: weatherme-push-server
-    env: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "gunicorn app:app"
-    runtime: python3.9
